@@ -11,4 +11,4 @@ def split_file(input_filename, output_prefix, lines_per_file):
             outfile.writelines(lines[start_line:end_line])
 
 # Example usage
-split_file('/Users/babdulma/githup/EFK-stack/logs/example/audit.log', 'output', 5)
+split_file('/logs/example/audit.log', 'output', 5)
